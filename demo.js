@@ -11,9 +11,9 @@ app.get('/', (req, res) => {
 });
 
 // Define a route for the about page
-// app.get('/about', (req, res) => {
-//     res.send('About TalentSprint Node.js Demo');
-// });
+app.get('/about', (req, res) => {
+    res.send('changes for branch2');
+});
 
 // Start the server and listen on the specified port
 app.listen(port, () => {
