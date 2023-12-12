@@ -12,6 +12,9 @@ app.get('/', (req, res) => {
 
 // Define a route for the about page
 app.get('/about', (req, res) => {
+    res.send('changes for branch2');
+});
+app.get('/about', (req, res) => {
     res.send('Making changes in branch 1');
 });
 
